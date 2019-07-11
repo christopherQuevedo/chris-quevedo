@@ -1,3 +1,13 @@
 body{
-    background-color: beige;
+    background-image: url("images/marble.jpg");
+    background-size: 100%;
 }
+
+#name{
+    text-align: center;
+}
+
+#contact{
+    text-align: center;
+}
+
