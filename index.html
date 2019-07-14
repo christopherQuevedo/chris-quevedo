@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +10,56 @@
 </head>
 
 <body>
-    <h1 id="name">Chris Quevedo</h1>
-    <h2 id="contact">chris.quevedo@yahoo.com | github.com/christopherQuevedo</h2>
-    
+    <div id="container">
+
+        <!-- top navbar -->
+        <nav class="navbar">
+            <span class="open-slide">
+                <a href="#" onclick="openSideMenu()">
+                    <svg width="30" height="30">
+                        <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
+                        <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
+                        <path d="M0,23 30,23" stroke="#fff" stroke-width="5" />
+                    </svg>
+                </a>
+            </span>
+        </nav>
+
+        <!-- sidebar -->
+        <div id="side-menu" class="side-nav">
+            <a href="#" class="btn-close" onclick="closeSideMenu()">&times;</a>
+            <a href="#">Home</a>
+            <a href="#">Projects</a>
+            <a href="#">Resume</a>
+        </div>
+
+        <!-- main content -->
+        <div id="main">
+            <div id="fullName">
+                <h1 class="name">CHRIS</h1>
+                <h1 class="name">QUEVEDO</h1>
+            </div>
+            <h2 id="contact">
+                <a href="mailto: chris.quevedo@yahoo.com" id="email">chris.quevedo@yahoo.com</a>
+                |
+                <a href="https://github.com/christopherQuevedo" target="_blank" id="github">My GitHub</a>
+            </h2>
+        </div>
+
+        <!--
+        <h1 id="name">Chris Quevedo</h1>
+        <h2 id="contact">
+            <a href="mailto: chris.quevedo@yahoo.com" id="email">chris.quevedo@yahoo.com</a>
+            |
+            <a href="https://github.com/christopherQuevedo" target="_blank" id="github">GitHub</a>
+        </h2>
+        <div id="mains">
+            <embed id="resume" src="baseResume.pdf" type="" />
+        </div>
+    -->
+
+    </div>
+    <script src="index.js" type="text/javascript"></script>
 </body>
+
 </html>
