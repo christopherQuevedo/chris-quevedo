@@ -47,6 +47,8 @@ body{
     color: #ccc;
     display: block;
     transition: 0.3s;
+    -webkit-text-stroke-color: #000;
+    -webkit-text-stroke-width: 1px;
 }
 
 .side-nav a:hover{
@@ -62,11 +64,10 @@ body{
 }
 
 #main{
-    transition: margin-left 0.5s;
-    /*padding: 20px;*/
     overflow: hidden;
     width: 100%;
     height: 100%;
+    margin: auto;
 }
 
 #fullName{
@@ -95,25 +96,26 @@ body{
     color: #ddd;
 }
 
-embed{
-    height: 100%;
-    width: 100%;
+#homeScreen{
+    
 }
 
-button{
-    display: block;
+#projectsScreen{
+    
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#resumeScreen{
+
+    color: #ccc;
     margin: auto;
+    height: 600px;
+    text-align: center;
 }
 
-nav{
-    display: flex;
-    background-color: green;
-}
-
-#nam{
-    float: left;
-}
-
-#links{
-    float: right;
+embed{
+    width: 100%;
+    height: 100%;
 }

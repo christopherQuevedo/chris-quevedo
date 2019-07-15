@@ -28,22 +28,32 @@
         <!-- sidebar -->
         <div id="side-menu" class="side-nav">
             <a href="#" class="btn-close" onclick="closeSideMenu()">&times;</a>
-            <a href="#">Home</a>
-            <a href="#">Projects</a>
-            <a href="#">Resume</a>
+            <a href="#" id="home">Home</a>
+            <a href="#" id="projects">Projects</a>
+            <a href="#" id="resume">Resume</a>
         </div>
 
         <!-- main content -->
         <div id="main">
-            <div id="fullName">
-                <h1 class="name">CHRIS</h1>
-                <h1 class="name">QUEVEDO</h1>
+            <div id="homeScreen">
+                <div id="fullName">
+                    <h1 class="name">CHRIS</h1>
+                    <h1 class="name">QUEVEDO</h1>
+                </div>
+                <h2 id="contact">
+                    <a href="mailto: chris.quevedo@yahoo.com" id="email">chris.quevedo@yahoo.com</a>
+                    |
+                    <a href="https://github.com/christopherQuevedo" target="_blank" id="github">My GitHub</a>
+                </h2>
             </div>
-            <h2 id="contact">
-                <a href="mailto: chris.quevedo@yahoo.com" id="email">chris.quevedo@yahoo.com</a>
-                |
-                <a href="https://github.com/christopherQuevedo" target="_blank" id="github">My GitHub</a>
-            </h2>
+            <div id="projectsScreen">
+                Projects
+            </div>
+            <div id="resumeScreen">
+                
+                <embed id="resume" src="baseResume.pdf" type="" />
+            
+            </div>
         </div>
 
         <!--
