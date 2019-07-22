@@ -101,10 +101,25 @@ body{
 }
 
 #projectsScreen{
-    
-    background-color: red;
-    width: 100px;
-    height: 100px;
+    width: 50%;
+    margin: auto;
+}
+
+.proj{
+    background-color: beige;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 1%;
+}
+
+img{
+    width: 100%;
+    border-radius: 1%;
+    border: solid black 1px;
+}
+
+#proj2 img, #proj3 img{
+    height: 600px;
 }
 
 #resumeScreen{
