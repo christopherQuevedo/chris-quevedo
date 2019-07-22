@@ -4,6 +4,10 @@ body{
     background-size: 100%;
 }
 
+#container{
+    
+}
+
 .navbar{
     background-color: #333;
     overflow: hidden;
@@ -68,6 +72,7 @@ body{
     width: 100%;
     height: 100%;
     margin: auto;
+    overflow-y: auto;
 }
 
 #fullName{
@@ -112,13 +117,17 @@ body{
     border-radius: 1%;
 }
 
+.proj h2{
+    font-family: Arial, Helvetica, sans-serif, serif;
+}
+
 img{
     width: 100%;
     border-radius: 1%;
     border: solid black 1px;
 }
 
-#proj2 img, #proj3 img{
+#proj2 img, #proj3 img, #proj7 img{
     height: 600px;
 }
 
