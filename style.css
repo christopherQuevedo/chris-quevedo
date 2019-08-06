@@ -1,5 +1,8 @@
+/* Desert background url
+https://images.unsplash.com/photo-1561485704-31d8a20503cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60
+*/
 html{
-    background: url(images/saguaros.jpg) no-repeat center center fixed;
+    background: url(images/stars.jpg) no-repeat center center fixed;
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
