@@ -101,8 +101,18 @@ body {
     overflow-y: auto;
 }
 
-#fullName {
+#fullName{
     margin-top: 50px;
+    animation: slide 3s;
+}
+
+@keyframes slide{
+    0%{
+        padding-right: 0;
+    }
+    100%{
+        padding-left: 0;
+    }
 }
 
 .name {
