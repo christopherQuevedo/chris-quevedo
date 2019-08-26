@@ -1,0 +1,26 @@
+ #projects{
+    width: 50%;
+    margin: auto;
+} 
+
+.proj {
+    background-color: beige;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 1%;
+    border: solid black 1px;
+}
+
+.proj h2 {
+    font-family: Arial, Helvetica, sans-serif, serif;
+}
+
+img {
+    width: 95%;
+    border-radius: 1%;
+    border: solid black 1px;
+}
+
+#proj2 img, #proj3 img, #proj7 img {
+    height: 600px;
+}

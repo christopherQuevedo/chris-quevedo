@@ -1,174 +1,101 @@
-/* Desert background url
-https://images.unsplash.com/photo-1561485704-31d8a20503cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60
-*/
-html{
-    background: url(images/stars.jpg) no-repeat center center fixed;
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-body {
-    font-family: "Arial", serif;
-    /*
-    background-image: url(images/saguaros.jpg);
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    */
-    /*
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    */
+body{
+    background-color: #fff;
 }
 
 /*
-#container{
-    
+nav{
+    border-bottom: solid 1px #fff
 }
 */
 
-.navbar {
-    background-color: #333;
-    overflow: hidden;
-    height: 63px;
-    margin: -8px;
-    margin-bottom: 20px;
-}
-
-.navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-.navbar a:hover {
-    background-color: #ddd;
-    color: #000;
-}
-
-.side-nav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #333;
-    opacity: 0.99;
-    overflow-x: hidden;
-    padding-top: 60px;
-    transition: 0.5s;
-}
-
-.side-nav a {
-    padding: 10px 10px 10px 30px;
-    text-decoration: none;
-    font-size: 22px;
-    color: #ccc;
-    display: block;
-    transition: 0.3s;
-    -webkit-text-stroke-color: #000;
-    -webkit-text-stroke-width: 1px;
-}
-
-.side-nav a:hover {
-    color: #fff;
-}
-
-.side-nav .btn-close {
-    position: absolute;
-    top: 0;
-    right: 22px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-
-#main {
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
+#main{
     margin: auto;
-    overflow-y: auto;
+    
+    width: 66%;
+    
+    /* border: solid 1px pink; */
+    display: flex;
+    margin-top: 30vh;
 }
 
-#fullName{
+#homeScreen{
     margin-top: 50px;
-    animation: slide 3s;
+    text-align: center;
+    border: solid 1px black;
+    display: flex;
+    /*
+    justify-content: space-around;
+    */
 }
 
-@keyframes slide{
+#icons{
+    /* margin-left: 100px;
+    */
+    padding-left: 20%;
+    margin: 0 auto;
+    animation: fade 3s;
+} 
+
+#sentence{
+    /* height: 100%;
+    margin-top: 4%;
+    margin-right: 30px; */
+
+    /* padding-left: 200px;
+    margin-top: 30px;
+    animation: fade 3s; */
+
+    margin: 0 auto;
+}
+
+#hi{
+    animation: fade 1s;
+}
+#im{
+    animation: fade 2s;
+}
+#chris{
+    animation: fade 3s;
+}
+.fa-facebook-f{
+    animation: fade 4s;
+}
+.fa-linkedin-in{
+    animation: fade 5s;
+}
+.fa-github{
+    animation: fade 6s;
+}
+.fa-envelope-square{
+    animation: fade 7s;
+}
+
+@keyframes fade{
     0%{
-        padding-right: 0;
+        opacity: 0;
     }
     100%{
-        padding-left: 0;
+        opacity: 1;
     }
 }
 
-.name {
+h1{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif, serif;
+    text-shadow: 1px 1px black;
+}
+
+i{
+    color: #007bff;
     font-size: 50px;
-    color: #ddd;
-    letter-spacing: 10px;
-    -webkit-text-stroke-color: #000;
-    -webkit-text-stroke-width: 2px;
+    text-shadow: 1px 1px black;
+    margin: 5px 5px;
 }
 
-#contact {
-    margin-top: 200px;
-    text-align: center;
+i:hover{
+    font-size: 60px;
 }
 
-#contact a {
-    text-decoration: none;
-    -webkit-text-stroke-color: #000;
-    -webkit-text-stroke-width: 1px;
-    color: #ddd;
-}
-
-/*
-#homeScreen{
-    
-}
-*/
-
-#projectsScreen {
-    width: 50%;
-    margin: auto;
-}
-
-.proj {
-    background-color: beige;
-    margin-bottom: 10px;
-    text-align: center;
-    border-radius: 1%;
-    border: solid black 1px;
-}
-
-.proj h2 {
-    font-family: Arial, Helvetica, sans-serif, serif;
-}
-
-img {
-    width: 95%;
-    border-radius: 1%;
-    border: solid black 1px;
-}
-
-#proj2 img, #proj3 img, #proj7 img {
-    height: 600px;
-}
 
 #resumeScreen {
     color: #ccc;
